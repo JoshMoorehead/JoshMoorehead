@@ -2,7 +2,8 @@
 
 - name: Gathering Facts for router
   gather_facts: true
-  hosts: router
-    tasks:
-      - name: Example from an Ansible Playbook
-        ansible.builtin.ping:
+  hosts: all
+  tasks:
+
+    - name: Example from an Ansible Playbook
+      ansible.builtin.ping:
