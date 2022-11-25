@@ -2,7 +2,7 @@
 
 - name: Gathering Facts for router
   gather_facts: true
-  hosts: all
+  hosts: router
   tasks:
 
     - name: Example from an Ansible Playbook

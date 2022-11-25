@@ -1,6 +1,5 @@
-all:
-  hosts:
-  children:
-    router:
-      hosts:
-      192.168.1.1
+[router]			
+ansible_host=192.168.1.1
+
+[router:vars]
+ansible_connection=ssh
