@@ -1,0 +1,6 @@
+all:
+  hosts:
+  children:
+    router:
+      hosts:
+      192.168.1.1
